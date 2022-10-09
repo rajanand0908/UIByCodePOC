@@ -19,9 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /// Added landing view controller as navigation root view controller
     window = UIWindow(frame: UIScreen.main.bounds)
     
-    // TODO: Replace dummy view controller with actual view controller
-    let landingViewController = UIViewController()
-    landingViewController.view.backgroundColor = .white
+    let landingViewController = LandingViewController()
     
     window?.rootViewController = UINavigationController(rootViewController: landingViewController)
     window?.makeKeyAndVisible()
