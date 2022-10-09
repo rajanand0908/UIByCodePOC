@@ -9,10 +9,19 @@ import UIKit
 
 final class LandingViewController: UIViewController {
   
+  // MARK: - Life Cycle
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     configure()
   }
+  
+}
+
+// MARK: - Setup Helper
+
+private typealias SetupHelper = LandingViewController
+private extension SetupHelper {
   
   private func configure() {
     view.backgroundColor = .white
