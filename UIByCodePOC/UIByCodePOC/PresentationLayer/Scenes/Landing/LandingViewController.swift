@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class LandingViewController: UIViewController {
+final class LandingViewController: CustomViewController<LandingView> {
   
   // MARK: - Life Cycle
   
