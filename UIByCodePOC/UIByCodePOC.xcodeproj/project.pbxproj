@@ -50,12 +50,36 @@
 		BEC0D34028F316A300EFB3C6 /* UIByCodePOC */ = {
 			isa = PBXGroup;
 			children = (
-				BEC0D34128F316A300EFB3C6 /* AppDelegate.swift */,
-				BEC0D34A28F316A400EFB3C6 /* Assets.xcassets */,
-				BEC0D34C28F316A400EFB3C6 /* LaunchScreen.storyboard */,
-				BEC0D34F28F316A400EFB3C6 /* Info.plist */,
+				BEC0D35528F317F400EFB3C6 /* AppDelegate */,
+				BEC0D35628F317FF00EFB3C6 /* Resources */,
+				BEC0D35728F3181200EFB3C6 /* Storyboards */,
 			);
 			path = UIByCodePOC;
+			sourceTree = "<group>";
+		};
+		BEC0D35528F317F400EFB3C6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BEC0D34128F316A300EFB3C6 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BEC0D35628F317FF00EFB3C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEC0D34A28F316A400EFB3C6 /* Assets.xcassets */,
+				BEC0D34F28F316A400EFB3C6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEC0D35728F3181200EFB3C6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEC0D34C28F316A400EFB3C6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRQ6H42Z38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIByCodePOC/Info.plist;
+				INFOPLIST_FILE = UIByCodePOC/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -296,7 +320,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRQ6H42Z38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIByCodePOC/Info.plist;
+				INFOPLIST_FILE = UIByCodePOC/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
